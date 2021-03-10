@@ -1,0 +1,58 @@
+None {
+   "geocoded_waypoints" : [ {}, {} ],
+   "routes" : [],
+   "status" : "ZERO_RESULTS"
+}
+
+None {
+   "geocoded_waypoints" : [ {}, {} ],
+   "routes" : [],
+   "status" : "ZERO_RESULTS"
+}
+
+None {
+   "geocoded_waypoints" : [ {}, {} ],
+   "routes" : [],
+   "status" : "ZERO_RESULTS"
+}
+
+None {
+   "geocoded_waypoints" : [ {}, {} ],
+   "routes" : [],
+   "status" : "ZERO_RESULTS"
+}
+
+None ZERO_RESULTS
+None ZERO_RESULTS
+None ZERO_RESULTS
+None ZERO_RESULTS
+None {
+   "geocoded_waypoints" : [ {}, {} ],
+   "routes" : [],
+   "status" : "ZERO_RESULTS"
+}
+
+None {
+   "geocoded_waypoints" : [ {}, {} ],
+   "routes" : [],
+   "status" : "ZERO_RESULTS"
+}
+
+None {
+   "geocoded_waypoints" : [ {}, {} ],
+   "routes" : [],
+   "status" : "ZERO_RESULTS"
+}
+
+None {
+   "geocoded_waypoints" : [ {}, {} ],
+   "routes" : [],
+   "status" : "ZERO_RESULTS"
+}
+
+None ZERO_RESULTS
+None ZERO_RESULTS
+None ZERO_RESULTS
+None ZERO_RESULTS
+None ZERO_RESULTS
+None ZERO_RESULTS
