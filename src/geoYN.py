@@ -35,7 +35,7 @@ def get_km_time(latA, lonA, latB, lonB, id_=None):
     '''
     global ERROR_COUNT
     if latA == latB and lonA == lonB:
-        return (0, 0)  # the same object geographically
+        return [(0, 0), (0, 0)]  # the same object geographically
     url = f'https://maps.googleapis.com/maps/api/directions/json?units=metric' \
           f'&origin={latA}, {lonA}' \
           f'&destination={latB}%2C{lonB}' \
@@ -48,7 +48,6 @@ def get_km_time(latA, lonA, latB, lonB, id_=None):
         response.status_code)
     try:
         data = response.json()
-        # print(response.json()['status'])
         routes = []
         # in response, there may be several options, we limit it to five
         for n in range(5):
@@ -119,7 +118,7 @@ def geoYN(args, db_params):
 
 
 if __name__ == '__main__':
-    data = get_km_time(50.456052, 30.510715, 50.298063, 26.864532)
+    data = get_km_time(50.387212, 30.783950, 50.387212, 30.783950)
     msg = 'Please, ensure that {} returned by API is correct'
     assert float(data[0][0]) > 20, msg.format('distance')
     assert int(data[0][1]) > 100, msg.format('time')
