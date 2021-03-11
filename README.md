@@ -1,5 +1,5 @@
 # Routes_calculation
-Calculate routes (distance, travel time) between geographic points using API.
+Calculate routes (distance, travel time) between geographic points using Google Map API.
 
 <ul>
 <li>db_connect.py - connects to SQLite database;</li>
@@ -52,6 +52,8 @@ Be sure to setup `config.ini`.
 ## Requirements
 
 * [pyodbc](https://github.com/mkleehammer/pyodbc)
+* pandas
+* requests
 
 <hr>
 
